@@ -1,0 +1,47 @@
+section.capabilities{
+    padding: 40px 4%;
+}
+
+
+h2.title{
+    color: #fff;
+    text-align: center;
+    font-size: 38px;
+    padding: 40px 4%;
+}
+
+h2.title span{
+    color: chartreuse;
+}
+
+.capabilities .capabilities-box {
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    border: 2x solid #fff;
+}
+
+.capabilities-box{
+    border: 2px solid #ffffff7a;
+    border-radius: 20px;
+}
+
+.capabilities-box:hover {
+   transform: scale(1.05);
+   box-shadow: 0 0 20px #a1a1a1;
+   transition: .2s;
+}
+
+.capabilities-box p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b1b1b1;
+    font-size: 15px;
+}
+
+.capabilities .capabilities-box i{
+    font-size: 48px;
+    color: chartreuse;
+}
