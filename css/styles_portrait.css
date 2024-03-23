@@ -1,0 +1,50 @@
+section.portrait{
+    padding: 80px 4%;
+    box-shadow: 0 0 25px 5px #ffffff5e;
+}
+
+h2.title-portrait{
+    text-align: center;
+    font-size: 38px;
+    color: #fff;
+}
+
+h2.title-portrait span{
+    color: chartreuse;
+}
+
+section.img-portrait .flex{
+    justify-content: space-around;
+}
+
+.img-portrait{
+    width: 360px;
+    height: 460px;
+    background-size: cover; /* Ajusta imagem para caber no box de imagem. */
+    background-position: 100% 0%;
+    transition: 8s;
+    border-radius: 40px;
+    cursor: pointer;
+    position: relative; /* Importante para que o Overlay funcione (Overlay/ Efeito de escurecer a imagem ao passar o cursor por cima.)*/
+}
+
+.overlay{ /* Efeito que escurece o box. */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 40px;
+    opacity: 0;
+    transition: 1.05;
+    box-shadow: 0 0 10px 5px #ffffff5e;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.img-portrait:hover{
+    background-position: 100% 100%;
+}

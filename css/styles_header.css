@@ -67,3 +67,27 @@ header .btn-contact button:hover {
     width: 100px;
     height: auto;
 }
+
+
+/* Estilo responsivo */
+@media only screen and (max-width: 768px) {
+    header .interface {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px; /* Ajuste conforme necessário */
+    }
+
+    header nav ul li {
+        padding: 10px 0; /* Ajuste conforme necessário */
+    }
+
+    header .btn-contact {
+        margin-top: 20px; /* Ajuste conforme necessário */
+    }
+}

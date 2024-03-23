@@ -2,7 +2,6 @@ section.capabilities{
     padding: 40px 4%;
 }
 
-
 h2.title{
     color: #fff;
     text-align: center;
@@ -44,4 +43,9 @@ h2.title span{
 .capabilities .capabilities-box i{
     font-size: 48px;
     color: chartreuse;
+}
+
+.img-site{
+    max-width: 100%;
+    height: auto;
 }
